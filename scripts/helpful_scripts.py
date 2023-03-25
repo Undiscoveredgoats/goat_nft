@@ -15,7 +15,8 @@ def get_account():
     ):
         account = accounts[0]
     else:
-        account = accounts.load("rastas")
+        accounts.add(config["wallets"]["from_key"])
+        # account = accounts.load("")
     return account
 
 

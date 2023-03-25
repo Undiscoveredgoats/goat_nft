@@ -17,6 +17,6 @@ networks:
   bsc-test:
     VRFCoordinator: "0x6A2AAd07396B36Fe02a22b33cf443582f682c82f"
     keyHash: "0xd4bb89654db74673a187bd804519e65e3f71a52bc55f11da7601a13dcf505314"
-    sId: 2764
+    sId: "Put your subscription Id here"
     fee: 5000000000000000
     mintFee: 100000000000000
