@@ -125,8 +125,10 @@ To deploy `goat` to the bsc testnet, run the followinng command:
 ```
 brownie run scripts/deploy_goat --network bsc-test
 ```
-This script will deploy goat, add goat to consumer, mint a randomn nft, create metadata, upload both the image and metadata to both Ipfs and Pinata, set the token metadata uri on the minted goat Id, and finally withdraw half of the goat's balance to your account.
+This script will deploy goat, add goat to consumer, mint a randomn nft, create metadata, upload both the image and metadata to both Ipfs and Pinata, set the token metadata uri on the minted goat Id, and finally withdraw half of the goat's balance to your account on bsc testnet.
 
+#### Viewing the and metadata on Ipfs
+Here are the uploaded images and their metadata on ipfs
 
 ### Testing
 
