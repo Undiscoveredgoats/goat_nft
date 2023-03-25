@@ -2,7 +2,7 @@
 
 # UNDISCOVERED GOATS DAO
 ## CORE VALUES
-The core value of UG is community of digital creators in the metaverse industry participants supported by infrastructure that gives them an advantage in the metaverse industry. The goal is to attract developers, VCs, founders, investors, 3d artists,filmakers and influencers who are focused on building and creating visual stories in the space.The second goal is to use our infrastructure for foundational building that gives the people a huge advantage in this industry.
+The core value of UG is sustainability, digital art/film making and decentralization. Community of digital creators in the metaverse industry participants supported by infrastructure that gives them an advantage in the metaverse industry. The goal is to attract developers, VCs, founders, investors, 3d artists,filmakers and influencers who are focused on building and creating visual stories in the space.The second goal is to use our infrastructure for foundational building that gives the people a huge advantage in this industry.
 
 ## WHAT WE DO
 We aim to use the power of community and web3 to create a new way were digital artist focused on web3 can build and use the technology to solve problems that digital artist encounter, while at the same time creating a community of digital artist focused on building longterm in the industry.
