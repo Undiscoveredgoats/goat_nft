@@ -98,7 +98,7 @@ or
 npm install
 ```
 Make sure you have an eth account whih has link and tBNB on Bsc-test network. Set the `PRIVATE_KEY` in `.env` as shown in `.envexample`.
-To be able to upload images to Pinata, set the `PINATA_API_SECRET` and `PINATA_API_KEY` variables on scripts/UPLOAD_TO_PINATA.py as obtained from [Pinata](https://app.pinata.cloud/pinmanager#) by logging in and generating new keys. Also create and fund chainlink vrf subscription on bsc testnet [here](https://vrf.chain.link/chapel/) to be able to use chainlink randomness on goat contract.
+To be able to upload images to Pinata, set the `PINATA_API_SECRET` and `PINATA_API_KEY` variables on scripts/UPLOAD_TO_PINATA.py as obtained from [Pinata](https://app.pinata.cloud/pinmanager#) by logging in and generating new keys. Also create and fund chainlink vrf subscription on bsc testnet [here](https://vrf.chain.link/chapel/) and set the subscription id on brownie-config.yaml as directed, to be able to use chainlink randomness on goat contract.
 You can also customize the goat mint fees on brownie-config.yaml
 
 ### Compiling contracts
