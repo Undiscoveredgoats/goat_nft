@@ -68,3 +68,73 @@ advice and review... and everything in between
 6. **HEADQUARTERS**
 * Headquarters is an investment platform for seed-stage web3 projects formed by and for community members. This is responsible for oversee day to day activities of the DAO and make sure
 they align with the values of the DAO
+
+# TECHNICAL PART
+# Goat Nft Project
+This project descibes the functionalities of the Goat NFT project, including minting, setting the token URL, storing images to Pinata (IPFS), and running tests. It comes with the NFT Contract, a contract test, and a script that deploys and interacts with the contract. The project is tested on local development network and the BSC testnet.
+
+## Getting Started
+### Requirements
+* Pip and pipx
+* Brownie
+* 
+
+### QuickStart
+To clone the repo, run the following command in your shell:
+
+```bash
+git clone https://github.com/Undiscoveredgoats/goat_nft.git
+```
+
+To install dependencies and packages, run either of the following commands:
+
+```
+yarn install
+```
+
+or
+
+```
+npm install
+```
+Make sure you have an eth account whih has link and tBNB on Bsc-test network. Set the `PRIVATE_KEY` in `.env` as shown in `.envexample`.
+To be able to upload images to Pinata, set the `PINATA_API_SECRET` and `PINATA_API_KEY` variables on scripts/UPLOAD_TO_PINATA.py as obtained from [Pinata](https://app.pinata.cloud/pinmanager#) by logging in and generating new keys. Also create and fund chainlink vrf subscription on bsc testnet [here](https://vrf.chain.link/chapel/) to be able to use chainlink randomness on goat contract.
+You can also customize the goat mint fees on brownie-config.yaml
+
+### Compiling contracts
+
+To compile the contracts, run the following command:
+
+```
+brownie run scripts/deploy_goat.py
+```
+
+
+### Deploying Goat
+
+To deploy `fuchaContract` on the Hardhat dev network, run the following command:
+
+```
+brownie run scripts/deploy_goat.py
+```
+This script will deploy goat, add goat to consumer, mint a randomn nft, create metadata, upload both the image and metadata to both Ipfs and Pinata, set the token metadata uri on the minted goat Id, and finally withdraw half of the goat's balance to your account.
+
+#### Deploying on Bsc testnet
+To deploy `goat` to the bsc testnet, run the followinng command:
+
+```
+brownie run scripts/deploy_goat --network bsc-test
+```
+This script will deploy goat, add goat to consumer, mint a randomn nft, create metadata, upload both the image and metadata to both Ipfs and Pinata, set the token metadata uri on the minted goat Id, and finally withdraw half of the goat's balance to your account.
+
+
+### Testing
+
+To run tests, enter the following command:
+
+```
+brownie test
+```
+
+
+
