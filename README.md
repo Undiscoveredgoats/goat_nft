@@ -66,6 +66,5 @@ supporting our internal Herds such as Outreach and Heardquaters, to helping goat
 advice and review... and everything in between
 
 6. **HEADQUARTERS**
-* CitCap is an investment platform for seed-stage web3 projects formed by and for Neo Tokyo
-community members. This is responsible for oversee day to day activities of the DAO and make sure
+* Heasquarters is an investment platform for seed-stage web3 projects formed by and for community members. This is responsible for oversee day to day activities of the DAO and make sure
 they align with the values of the DAO
